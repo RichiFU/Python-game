@@ -115,3 +115,8 @@ No external dependencies are required.
 
 This game was developed as a final project for **CS50's Introduction to Programming with Python**. It represents a combination of skills learned throughout the course, including control structures, functions, file I/O, input validation, and automated testing.
 
+## Author
+
+**Ricardo Fuentes**  
+📧 andresurizarfuentes@gmail.com
+
