@@ -1,12 +1,12 @@
 # Guessing Game in Python
 
-#### Video Demo: [Watch on YouTube](https://youtu.be/6BggUqybaQk)
-
----
+![Captura del juego](./guessing-game.png)
 
 ## Description
 
 This project is an interactive game developed in Python that combines two types of challenges: a number guessing game and a classic riddle challenge.
+
+This is a **console-based game**, meaning all interactions occur through the terminal.
 
 The game is divided into two main phases:
 
@@ -18,13 +18,28 @@ The project also includes a logging feature: all attempts are saved in a `histor
 
 ---
 
+## Game Rules
+
+- The player starts with 10 lives.
+- Each incorrect answer (in either phase) deducts one life.
+- **Lives are not reset** between phases — they are shared across both challenges.
+- The game ends when the player runs out of lives or completes both phases successfully.
+
+
 ## Running the Game
 
 To run the project:
 
+
 1. Make sure Python 3 is installed.
-2. Open a terminal in the directory containing the `project.py` file.
-3. Run the following command:
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+3. Navigate to the project folder:
+   ```bash
+   cd your-repo
+3. Open a terminal in the directory containing the `project.py` file.
+4. Run the following command:
 
 ```bash
 python project.py
